@@ -1,5 +1,10 @@
 #!/usr/bin/python
 #-*-coding:utf-8-*-
+#this is a python program to simulate the band transfer.
+#Trandfer some money from source account to the target account 
+#with the account message saved in mysql.
+#using the program like this:python account_test.py 6 7 100
+
 
 import MySQLdb,sys
 
