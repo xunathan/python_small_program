@@ -31,3 +31,6 @@ x/[count][format] [address] 打印内存值，从所给地址(address)处开始�
 常见 format 有 d decimal, x hex, t binary, f floating point, i instruction, c character, s string(以 8bit 字符串形式显示数据)
 i r 寄存器名 , info registers 寄存器名，查看当前某个寄存器的内容，寄存器名前不需要 % ，例如，i r rsi √
 Ctrl + L 清屏，由于 gdb 没有专门的清屏命令，所以用 Linux 自带的。(有的时候不退出 gdb 重新 r 会导致显示内容覆盖，使用这个命令清屏，有可能不好使) √
+
+技巧
+不输入命令回车,直接执行上次的命令
